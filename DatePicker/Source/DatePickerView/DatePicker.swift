@@ -22,13 +22,17 @@ extension DatePicker {
                     minDate: Date? = nil,
                     maxDate: Date? = nil,
                     selection: DateSelection? = nil,
-                    preferedWidth: CGFloat? = 290) {
+                    preferedWidth: CGFloat? = 290,
+                    timeZone: TimeZone = .current,
+                    locale: Locale = .current) {
             self.theme = theme
             self.presentedDate = presentedDate
             self.minDate = minDate
             self.maxDate = maxDate
             self.selection = selection
             self.preferedWidth = preferedWidth
+            TimeZone.prefered = timeZone
+            Locale.prefered = locale
         }
     }
 }
@@ -80,10 +84,6 @@ final public class DatePicker: UIView, Themable {
         }
         return CGSize(width: preferedWidth, height: UIView.noIntrinsicMetric)
     }
-    
-    public override func removeFromSuperview() {
-        super.removeFromSuperview()
-    }
 
     func setViews() {
         clipsToBounds = true
@@ -106,7 +106,7 @@ final public class DatePicker: UIView, Themable {
                                         print("show month and year selection")
                                       },
                                       scrollAction: { [unowned self] direction in
-                                        let calendar = Calendar.`default`
+                                        let calendar = Calendar.prefered
                                         var date: Date?
                                         switch direction {
                                         case .left:
@@ -152,11 +152,11 @@ final public class DatePicker: UIView, Themable {
         case .left:
             guard let minDate = minDate else { return true }
             return date.isEqualOrMoreRecent(than: minDate) ||
-                Calendar.`default`.isDate(date, equalTo: minDate, toGranularity: .month)
+                Calendar.prefered.isDate(date, equalTo: minDate, toGranularity: .month)
         case .right:
             guard let maxDate = maxDate else { return true }
             return maxDate.isEqualOrMoreRecent(than: date) ||
-                Calendar.`default`.isDate(date, equalTo: maxDate, toGranularity: .month)
+                Calendar.prefered.isDate(date, equalTo: maxDate, toGranularity: .month)
         }
     }
 }

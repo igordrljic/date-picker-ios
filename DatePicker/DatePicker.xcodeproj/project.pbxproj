@@ -34,6 +34,9 @@
 		A834F2FC2771D5B800AAD490 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E62771D5B800AAD490 /* ThemeManager.swift */; };
 		A834F2FD2771D5B800AAD490 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E72771D5B800AAD490 /* Theme.swift */; };
 		A834F3002771D7D200AAD490 /* CorneredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2FF2771D7D200AAD490 /* CorneredView.swift */; };
+		A88E8E432772215300F36E50 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E422772215300F36E50 /* DateFormatter+Extension.swift */; };
+		A88E8E452772216800F36E50 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E442772216800F36E50 /* Locale+Extension.swift */; };
+		A88E8E472772217A00F36E50 /* TimeZone+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E462772217A00F36E50 /* TimeZone+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		A834F2E62771D5B800AAD490 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		A834F2E72771D5B800AAD490 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A834F2FF2771D7D200AAD490 /* CorneredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorneredView.swift; sourceTree = "<group>"; };
+		A88E8E422772215300F36E50 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		A88E8E442772216800F36E50 /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
+		A88E8E462772217A00F36E50 /* TimeZone+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,9 @@
 				A834F2CF2771D5B800AAD490 /* Array+Days.swift */,
 				A834F2D02771D5B800AAD490 /* Date+DatePicker.swift */,
 				A834F2D12771D5B800AAD490 /* Bundle+DatePicker.swift */,
+				A88E8E422772215300F36E50 /* DateFormatter+Extension.swift */,
+				A88E8E442772216800F36E50 /* Locale+Extension.swift */,
+				A88E8E462772217A00F36E50 /* TimeZone+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -319,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A834F3002771D7D200AAD490 /* CorneredView.swift in Sources */,
+				A88E8E452772216800F36E50 /* Locale+Extension.swift in Sources */,
 				A834F2F52771D5B800AAD490 /* CalendarPickerError.swift in Sources */,
 				A834F2C72771D28500AAD490 /* FadeInAnimator.swift in Sources */,
 				A834F2EE2771D5B800AAD490 /* DateSelectionDelegate.swift in Sources */,
@@ -330,10 +340,12 @@
 				A834F2FB2771D5B800AAD490 /* DefaultTheme.swift in Sources */,
 				A834F2F72771D5B800AAD490 /* DatePickerFooter.swift in Sources */,
 				A834F2EA2771D5B800AAD490 /* Date+DatePicker.swift in Sources */,
+				A88E8E432772215300F36E50 /* DateFormatter+Extension.swift in Sources */,
 				A834F2EF2771D5B800AAD490 /* DaysFactory.swift in Sources */,
 				A834F2FC2771D5B800AAD490 /* ThemeManager.swift in Sources */,
 				A834F2F12771D5B800AAD490 /* CalendarView.swift in Sources */,
 				A834F2F32771D5B800AAD490 /* Day.swift in Sources */,
+				A88E8E472772217A00F36E50 /* TimeZone+Extension.swift in Sources */,
 				A834F2EC2771D5B800AAD490 /* DatePickerViewController.swift in Sources */,
 				A834F2EB2771D5B800AAD490 /* Bundle+DatePicker.swift in Sources */,
 				A834F2F62771D5B800AAD490 /* DateSelection.swift in Sources */,

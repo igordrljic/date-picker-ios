@@ -15,7 +15,7 @@ struct Day {
     let isSelectable: Bool
     
     var dayOfWeekSingleLetter: String {
-        let formatter = DateFormatter()
+        let formatter = DateFormatter.prefered
         formatter.dateFormat = "EEEEE"
         return formatter.string(from: date)
     }

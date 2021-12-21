@@ -8,9 +8,9 @@
 import Foundation
 
 class DaysFactory {
-    let calendar = Calendar.`default`
+    let calendar = Calendar.prefered
     private let dateFormatter: DateFormatter = {
-        let dateFormatter = DateFormatter()
+        let dateFormatter = DateFormatter.prefered
         dateFormatter.dateFormat = "d"
         return dateFormatter
     }()

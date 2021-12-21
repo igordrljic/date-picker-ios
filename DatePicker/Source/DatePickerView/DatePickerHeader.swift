@@ -26,7 +26,7 @@ class DatePickerHeader: UIView, Themable {
     let daysOfWeekStack = UIStackView().autolayoutView
     let separatorView = UIView().autolayoutView
     private let dateFormatter: DateFormatter = {
-        let formatter = DateFormatter()
+        let formatter = DateFormatter.prefered
         formatter.dateFormat = "MMMM yyyy"
         return formatter
     }()

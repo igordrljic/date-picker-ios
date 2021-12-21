@@ -9,11 +9,12 @@ import Foundation
 
 extension Calendar {
     
-    static let `default`: Calendar = {
+    static var prefered: Calendar {
         var calendar = Calendar(identifier: .iso8601)
-        calendar.timeZone = TimeZone.current
+        calendar.locale = Locale.prefered
+        calendar.timeZone = TimeZone.prefered
         return calendar
-    }()
+    }
     
     func nextMonth(for date: Date) throws -> Date {
         guard let nextMonth = self.date(byAdding: .month, value: 1, to: date)

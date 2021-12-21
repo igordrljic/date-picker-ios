@@ -13,10 +13,10 @@ class CalendarView: UIView, Themable {
     var selection: DateSelection? { didSet { reloadData() } }
     weak var dateSelectionDelegate: DateSelectionDelegate?
     var calendar: Calendar {
-        Calendar.`default`
+        Calendar.prefered
     }
     private (set) var days: [Day]
-    private let numberOfDaysInAWeek = Calendar.default.weekdaySymbols.count
+    private let numberOfDaysInAWeek = Calendar.prefered.weekdaySymbols.count
     
     private var collectionView: UICollectionView!
     private let collectionLayout = UICollectionViewFlowLayout()
