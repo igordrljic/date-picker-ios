@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DatePicker/**/*.swift", "DatePicker/*.swift"
+  spec.source_files  = "DatePicker/Source/**/*.swift", "DatePicker/Source/*.swift"
   # spec.exclude_files = ""
 
   # spec.public_header_files = "Classes/**/*.h"
