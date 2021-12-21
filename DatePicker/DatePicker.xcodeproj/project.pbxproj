@@ -99,14 +99,7 @@
 		A834F2942771D17E00AAD490 = {
 			isa = PBXGroup;
 			children = (
-				A834F2D22771D5B800AAD490 /* DatePickerViewController.swift */,
-				A834F2DF2771D5B800AAD490 /* DatePickerView */,
-				A834F2D42771D5B800AAD490 /* CalendarView */,
-				A834F2D92771D5B800AAD490 /* Entities */,
-				A834F2CD2771D5B800AAD490 /* Extensions */,
-				A834F2E32771D5B800AAD490 /* Theme */,
-				A834F2CA2771D2B900AAD490 /* Animations */,
-				A834F2FE2771D7C100AAD490 /* UIComponents */,
+				A834F328277218E600AAD490 /* Source */,
 				A834F2AC2771D17E00AAD490 /* DatePickerTests */,
 				A834F29F2771D17E00AAD490 /* Products */,
 			);
@@ -200,6 +193,21 @@
 				A834F2FF2771D7D200AAD490 /* CorneredView.swift */,
 			);
 			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		A834F328277218E600AAD490 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2D22771D5B800AAD490 /* DatePickerViewController.swift */,
+				A834F2DF2771D5B800AAD490 /* DatePickerView */,
+				A834F2D42771D5B800AAD490 /* CalendarView */,
+				A834F2D92771D5B800AAD490 /* Entities */,
+				A834F2CD2771D5B800AAD490 /* Extensions */,
+				A834F2E32771D5B800AAD490 /* Theme */,
+				A834F2CA2771D2B900AAD490 /* Animations */,
+				A834F2FE2771D7C100AAD490 /* UIComponents */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
