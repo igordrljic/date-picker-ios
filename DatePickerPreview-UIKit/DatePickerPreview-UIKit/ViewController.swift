@@ -67,7 +67,8 @@ class ViewController: UIViewController {
     
     @objc private func showItalianDatePicker() {
         do {
-            let params = DatePicker.Parameters(locale: Locale(identifier: "it"))
+            let localization = Localization(cancel: "Cancellare", confirm: "Confermare")
+            let params = DatePicker.Parameters(locale: Locale(identifier: "it"), localization: localization)
             var viewController: UIViewController!
             viewController = try DatePickerViewController.create(with: params) { selection in
                 print("date picker confirmed selection: \(String(describing: selection))")

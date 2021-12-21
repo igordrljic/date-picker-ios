@@ -28,10 +28,10 @@ class DefaultThemeColors: Colors {
 
 class DefaultThemeImages: Images {
     var leftArrow: UIImage {
-        UIImage(systemName: "arrowtriangle.left")!.withRenderingMode(.alwaysTemplate)
+        UIImage(systemName: "chevron.left")!.withRenderingMode(.alwaysTemplate)
     }
     var rightArrow: UIImage {
-        UIImage(systemName: "arrowtriangle.right")!.withRenderingMode(.alwaysTemplate)
+        UIImage(systemName: "chevron.right")!.withRenderingMode(.alwaysTemplate)
     }
 }
 

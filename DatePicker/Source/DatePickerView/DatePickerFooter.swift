@@ -17,6 +17,7 @@ class DatePickerFooter: UIView, Themable {
     private let cancel: () -> Void
     private let padding: CGFloat = 10
     private let buttonDimension: CGFloat = 30
+    private let localization = Localization.prefered
     
     init(confirm: @escaping () -> Void, cancel: @escaping () -> Void) {
         self.confirm = confirm
@@ -31,13 +32,13 @@ class DatePickerFooter: UIView, Themable {
     }
     
     func setViews() {
-        cancelButton.setTitle("Cancel", for: .normal)
+        cancelButton.setTitle(localization.cancel, for: .normal)
         cancelButton.setTitleColor(theme.colors.cancelAction, for: .normal)
         cancelButton.addTarget(self, action: #selector(cancelButtonAction), for: .touchUpInside)
         cancelButton.titleLabel?.font = theme.fonts.regular
         addSubview(cancelButton)
         
-        confirmButton.setTitle("Confirm", for: .normal)
+        confirmButton.setTitle(localization.confirm, for: .normal)
         confirmButton.setTitleColor(theme.colors.confirmAction, for: .normal)
         confirmButton.addTarget(self, action: #selector(confirmButtonAction), for: .touchUpInside)
         confirmButton.titleLabel?.font = theme.fonts.semibold

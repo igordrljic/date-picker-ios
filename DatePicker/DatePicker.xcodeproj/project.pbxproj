@@ -34,6 +34,7 @@
 		A834F2FC2771D5B800AAD490 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E62771D5B800AAD490 /* ThemeManager.swift */; };
 		A834F2FD2771D5B800AAD490 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E72771D5B800AAD490 /* Theme.swift */; };
 		A834F3002771D7D200AAD490 /* CorneredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2FF2771D7D200AAD490 /* CorneredView.swift */; };
+		A85B0AD0277248FB0063CEB5 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E492772243C00F36E50 /* Localization.swift */; };
 		A88E8E432772215300F36E50 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E422772215300F36E50 /* DateFormatter+Extension.swift */; };
 		A88E8E452772216800F36E50 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E442772216800F36E50 /* Locale+Extension.swift */; };
 		A88E8E472772217A00F36E50 /* TimeZone+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8E462772217A00F36E50 /* TimeZone+Extension.swift */; };
@@ -81,6 +82,7 @@
 		A88E8E422772215300F36E50 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 		A88E8E442772216800F36E50 /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
 		A88E8E462772217A00F36E50 /* TimeZone+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Extension.swift"; sourceTree = "<group>"; };
+		A88E8E492772243C00F36E50 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,10 +215,19 @@
 				A834F2D92771D5B800AAD490 /* Entities */,
 				A834F2CD2771D5B800AAD490 /* Extensions */,
 				A834F2E32771D5B800AAD490 /* Theme */,
+				A88E8E482772242500F36E50 /* Localization */,
 				A834F2CA2771D2B900AAD490 /* Animations */,
 				A834F2FE2771D7C100AAD490 /* UIComponents */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A88E8E482772242500F36E50 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				A88E8E492772243C00F36E50 /* Localization.swift */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +349,7 @@
 				A834F2F22771D5B800AAD490 /* SelectionType.swift in Sources */,
 				A834F2F42771D5B800AAD490 /* MonthMetadata.swift in Sources */,
 				A834F2FB2771D5B800AAD490 /* DefaultTheme.swift in Sources */,
+				A85B0AD0277248FB0063CEB5 /* Localization.swift in Sources */,
 				A834F2F72771D5B800AAD490 /* DatePickerFooter.swift in Sources */,
 				A834F2EA2771D5B800AAD490 /* Date+DatePicker.swift in Sources */,
 				A88E8E432772215300F36E50 /* DateFormatter+Extension.swift in Sources */,
@@ -521,6 +533,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rs.igordrljic.DatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,6 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rs.igordrljic.DatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

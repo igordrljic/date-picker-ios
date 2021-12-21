@@ -24,7 +24,8 @@ extension DatePicker {
                     selection: DateSelection? = nil,
                     preferedWidth: CGFloat? = 290,
                     timeZone: TimeZone = .current,
-                    locale: Locale = .current) {
+                    locale: Locale = .current,
+                    localization: Localization? = nil) {
             self.theme = theme
             self.presentedDate = presentedDate
             self.minDate = minDate
@@ -33,6 +34,9 @@ extension DatePicker {
             self.preferedWidth = preferedWidth
             TimeZone.prefered = timeZone
             Locale.prefered = locale
+            if let localization = localization {
+                Localization.prefered = localization
+            }
         }
     }
 }
