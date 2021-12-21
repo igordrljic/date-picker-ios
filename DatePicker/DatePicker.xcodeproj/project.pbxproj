@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A834F2A92771D17E00AAD490 /* DatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A834F29E2771D17E00AAD490 /* DatePicker.framework */; };
+		A834F2AE2771D17E00AAD490 /* DatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2AD2771D17E00AAD490 /* DatePickerTests.swift */; };
+		A834F2C72771D28500AAD490 /* FadeInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2C62771D28500AAD490 /* FadeInAnimator.swift */; };
+		A834F2C92771D29900AAD490 /* FadeOutAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2C82771D29900AAD490 /* FadeOutAnimator.swift */; };
+		A834F2CC2771D4AA00AAD490 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2CB2771D4AA00AAD490 /* UIView+Extension.swift */; };
+		A834F2E82771D5B800AAD490 /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2CE2771D5B800AAD490 /* Calendar+Extension.swift */; };
+		A834F2E92771D5B800AAD490 /* Array+Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2CF2771D5B800AAD490 /* Array+Days.swift */; };
+		A834F2EA2771D5B800AAD490 /* Date+DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D02771D5B800AAD490 /* Date+DatePicker.swift */; };
+		A834F2EB2771D5B800AAD490 /* Bundle+DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D12771D5B800AAD490 /* Bundle+DatePicker.swift */; };
+		A834F2EC2771D5B800AAD490 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D22771D5B800AAD490 /* DatePickerViewController.swift */; };
+		A834F2EE2771D5B800AAD490 /* DateSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D52771D5B800AAD490 /* DateSelectionDelegate.swift */; };
+		A834F2EF2771D5B800AAD490 /* DaysFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D62771D5B800AAD490 /* DaysFactory.swift */; };
+		A834F2F02771D5B800AAD490 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D72771D5B800AAD490 /* DayCell.swift */; };
+		A834F2F12771D5B800AAD490 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2D82771D5B800AAD490 /* CalendarView.swift */; };
+		A834F2F22771D5B800AAD490 /* SelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2DA2771D5B800AAD490 /* SelectionType.swift */; };
+		A834F2F32771D5B800AAD490 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2DB2771D5B800AAD490 /* Day.swift */; };
+		A834F2F42771D5B800AAD490 /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2DC2771D5B800AAD490 /* MonthMetadata.swift */; };
+		A834F2F52771D5B800AAD490 /* CalendarPickerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2DD2771D5B800AAD490 /* CalendarPickerError.swift */; };
+		A834F2F62771D5B800AAD490 /* DateSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2DE2771D5B800AAD490 /* DateSelection.swift */; };
+		A834F2F72771D5B800AAD490 /* DatePickerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E02771D5B800AAD490 /* DatePickerFooter.swift */; };
+		A834F2F82771D5B800AAD490 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E12771D5B800AAD490 /* DatePicker.swift */; };
+		A834F2F92771D5B800AAD490 /* DatePickerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E22771D5B800AAD490 /* DatePickerHeader.swift */; };
+		A834F2FA2771D5B800AAD490 /* Themable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E42771D5B800AAD490 /* Themable.swift */; };
+		A834F2FB2771D5B800AAD490 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E52771D5B800AAD490 /* DefaultTheme.swift */; };
+		A834F2FC2771D5B800AAD490 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E62771D5B800AAD490 /* ThemeManager.swift */; };
+		A834F2FD2771D5B800AAD490 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2E72771D5B800AAD490 /* Theme.swift */; };
+		A834F3002771D7D200AAD490 /* CorneredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834F2FF2771D7D200AAD490 /* CorneredView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A834F2AA2771D17E00AAD490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A834F2952771D17E00AAD490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A834F29D2771D17E00AAD490;
+			remoteInfo = DatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A834F29E2771D17E00AAD490 /* DatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A834F2A82771D17E00AAD490 /* DatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A834F2AD2771D17E00AAD490 /* DatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTests.swift; sourceTree = "<group>"; };
+		A834F2C62771D28500AAD490 /* FadeInAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInAnimator.swift; sourceTree = "<group>"; };
+		A834F2C82771D29900AAD490 /* FadeOutAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutAnimator.swift; sourceTree = "<group>"; };
+		A834F2CB2771D4AA00AAD490 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A834F2CE2771D5B800AAD490 /* Calendar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calendar+Extension.swift"; sourceTree = "<group>"; };
+		A834F2CF2771D5B800AAD490 /* Array+Days.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Days.swift"; sourceTree = "<group>"; };
+		A834F2D02771D5B800AAD490 /* Date+DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DatePicker.swift"; sourceTree = "<group>"; };
+		A834F2D12771D5B800AAD490 /* Bundle+DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+DatePicker.swift"; sourceTree = "<group>"; };
+		A834F2D22771D5B800AAD490 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		A834F2D52771D5B800AAD490 /* DateSelectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionDelegate.swift; sourceTree = "<group>"; };
+		A834F2D62771D5B800AAD490 /* DaysFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysFactory.swift; sourceTree = "<group>"; };
+		A834F2D72771D5B800AAD490 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		A834F2D82771D5B800AAD490 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A834F2DA2771D5B800AAD490 /* SelectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionType.swift; sourceTree = "<group>"; };
+		A834F2DB2771D5B800AAD490 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		A834F2DC2771D5B800AAD490 /* MonthMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthMetadata.swift; sourceTree = "<group>"; };
+		A834F2DD2771D5B800AAD490 /* CalendarPickerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerError.swift; sourceTree = "<group>"; };
+		A834F2DE2771D5B800AAD490 /* DateSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelection.swift; sourceTree = "<group>"; };
+		A834F2E02771D5B800AAD490 /* DatePickerFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerFooter.swift; sourceTree = "<group>"; };
+		A834F2E12771D5B800AAD490 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		A834F2E22771D5B800AAD490 /* DatePickerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerHeader.swift; sourceTree = "<group>"; };
+		A834F2E42771D5B800AAD490 /* Themable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themable.swift; sourceTree = "<group>"; };
+		A834F2E52771D5B800AAD490 /* DefaultTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
+		A834F2E62771D5B800AAD490 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A834F2E72771D5B800AAD490 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A834F2FF2771D7D200AAD490 /* CorneredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorneredView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A834F29B2771D17E00AAD490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A834F2A52771D17E00AAD490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A834F2A92771D17E00AAD490 /* DatePicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A834F2942771D17E00AAD490 = {
+			isa = PBXGroup;
+			children = (
+				A834F2D22771D5B800AAD490 /* DatePickerViewController.swift */,
+				A834F2DF2771D5B800AAD490 /* DatePickerView */,
+				A834F2D42771D5B800AAD490 /* CalendarView */,
+				A834F2D92771D5B800AAD490 /* Entities */,
+				A834F2CD2771D5B800AAD490 /* Extensions */,
+				A834F2E32771D5B800AAD490 /* Theme */,
+				A834F2CA2771D2B900AAD490 /* Animations */,
+				A834F2FE2771D7C100AAD490 /* UIComponents */,
+				A834F2AC2771D17E00AAD490 /* DatePickerTests */,
+				A834F29F2771D17E00AAD490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A834F29F2771D17E00AAD490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A834F29E2771D17E00AAD490 /* DatePicker.framework */,
+				A834F2A82771D17E00AAD490 /* DatePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A834F2AC2771D17E00AAD490 /* DatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2AD2771D17E00AAD490 /* DatePickerTests.swift */,
+			);
+			path = DatePickerTests;
+			sourceTree = "<group>";
+		};
+		A834F2CA2771D2B900AAD490 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2C62771D28500AAD490 /* FadeInAnimator.swift */,
+				A834F2C82771D29900AAD490 /* FadeOutAnimator.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		A834F2CD2771D5B800AAD490 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2CB2771D4AA00AAD490 /* UIView+Extension.swift */,
+				A834F2CE2771D5B800AAD490 /* Calendar+Extension.swift */,
+				A834F2CF2771D5B800AAD490 /* Array+Days.swift */,
+				A834F2D02771D5B800AAD490 /* Date+DatePicker.swift */,
+				A834F2D12771D5B800AAD490 /* Bundle+DatePicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A834F2D42771D5B800AAD490 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2D82771D5B800AAD490 /* CalendarView.swift */,
+				A834F2D52771D5B800AAD490 /* DateSelectionDelegate.swift */,
+				A834F2D62771D5B800AAD490 /* DaysFactory.swift */,
+				A834F2D72771D5B800AAD490 /* DayCell.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		A834F2D92771D5B800AAD490 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2DA2771D5B800AAD490 /* SelectionType.swift */,
+				A834F2DB2771D5B800AAD490 /* Day.swift */,
+				A834F2DC2771D5B800AAD490 /* MonthMetadata.swift */,
+				A834F2DD2771D5B800AAD490 /* CalendarPickerError.swift */,
+				A834F2DE2771D5B800AAD490 /* DateSelection.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A834F2DF2771D5B800AAD490 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2E12771D5B800AAD490 /* DatePicker.swift */,
+				A834F2E02771D5B800AAD490 /* DatePickerFooter.swift */,
+				A834F2E22771D5B800AAD490 /* DatePickerHeader.swift */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		A834F2E32771D5B800AAD490 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2E72771D5B800AAD490 /* Theme.swift */,
+				A834F2E42771D5B800AAD490 /* Themable.swift */,
+				A834F2E62771D5B800AAD490 /* ThemeManager.swift */,
+				A834F2E52771D5B800AAD490 /* DefaultTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A834F2FE2771D7C100AAD490 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A834F2FF2771D7D200AAD490 /* CorneredView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A834F2992771D17E00AAD490 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A834F29D2771D17E00AAD490 /* DatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A834F2B22771D17E00AAD490 /* Build configuration list for PBXNativeTarget "DatePicker" */;
+			buildPhases = (
+				A834F2992771D17E00AAD490 /* Headers */,
+				A834F29A2771D17E00AAD490 /* Sources */,
+				A834F29B2771D17E00AAD490 /* Frameworks */,
+				A834F29C2771D17E00AAD490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePicker;
+			productName = DatePicker;
+			productReference = A834F29E2771D17E00AAD490 /* DatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A834F2A72771D17E00AAD490 /* DatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A834F2B52771D17E00AAD490 /* Build configuration list for PBXNativeTarget "DatePickerTests" */;
+			buildPhases = (
+				A834F2A42771D17E00AAD490 /* Sources */,
+				A834F2A52771D17E00AAD490 /* Frameworks */,
+				A834F2A62771D17E00AAD490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A834F2AB2771D17E00AAD490 /* PBXTargetDependency */,
+			);
+			name = DatePickerTests;
+			productName = DatePickerTests;
+			productReference = A834F2A82771D17E00AAD490 /* DatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A834F2952771D17E00AAD490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A834F29D2771D17E00AAD490 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					A834F2A72771D17E00AAD490 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = A834F2982771D17E00AAD490 /* Build configuration list for PBXProject "DatePicker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A834F2942771D17E00AAD490;
+			productRefGroup = A834F29F2771D17E00AAD490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A834F29D2771D17E00AAD490 /* DatePicker */,
+				A834F2A72771D17E00AAD490 /* DatePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A834F29C2771D17E00AAD490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A834F2A62771D17E00AAD490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A834F29A2771D17E00AAD490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A834F3002771D7D200AAD490 /* CorneredView.swift in Sources */,
+				A834F2F52771D5B800AAD490 /* CalendarPickerError.swift in Sources */,
+				A834F2C72771D28500AAD490 /* FadeInAnimator.swift in Sources */,
+				A834F2EE2771D5B800AAD490 /* DateSelectionDelegate.swift in Sources */,
+				A834F2E92771D5B800AAD490 /* Array+Days.swift in Sources */,
+				A834F2E82771D5B800AAD490 /* Calendar+Extension.swift in Sources */,
+				A834F2FD2771D5B800AAD490 /* Theme.swift in Sources */,
+				A834F2F22771D5B800AAD490 /* SelectionType.swift in Sources */,
+				A834F2F42771D5B800AAD490 /* MonthMetadata.swift in Sources */,
+				A834F2FB2771D5B800AAD490 /* DefaultTheme.swift in Sources */,
+				A834F2F72771D5B800AAD490 /* DatePickerFooter.swift in Sources */,
+				A834F2EA2771D5B800AAD490 /* Date+DatePicker.swift in Sources */,
+				A834F2EF2771D5B800AAD490 /* DaysFactory.swift in Sources */,
+				A834F2FC2771D5B800AAD490 /* ThemeManager.swift in Sources */,
+				A834F2F12771D5B800AAD490 /* CalendarView.swift in Sources */,
+				A834F2F32771D5B800AAD490 /* Day.swift in Sources */,
+				A834F2EC2771D5B800AAD490 /* DatePickerViewController.swift in Sources */,
+				A834F2EB2771D5B800AAD490 /* Bundle+DatePicker.swift in Sources */,
+				A834F2F62771D5B800AAD490 /* DateSelection.swift in Sources */,
+				A834F2C92771D29900AAD490 /* FadeOutAnimator.swift in Sources */,
+				A834F2F02771D5B800AAD490 /* DayCell.swift in Sources */,
+				A834F2CC2771D4AA00AAD490 /* UIView+Extension.swift in Sources */,
+				A834F2FA2771D5B800AAD490 /* Themable.swift in Sources */,
+				A834F2F92771D5B800AAD490 /* DatePickerHeader.swift in Sources */,
+				A834F2F82771D5B800AAD490 /* DatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A834F2A42771D17E00AAD490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A834F2AE2771D17E00AAD490 /* DatePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A834F2AB2771D17E00AAD490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A834F29D2771D17E00AAD490 /* DatePicker */;
+			targetProxy = A834F2AA2771D17E00AAD490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A834F2B02771D17E00AAD490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A834F2B12771D17E00AAD490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A834F2B32771D17E00AAD490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T86P32J6KM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.igordrljic.DatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A834F2B42771D17E00AAD490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T86P32J6KM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.igordrljic.DatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A834F2B62771D17E00AAD490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86P32J6KM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.igordrljic.DatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A834F2B72771D17E00AAD490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86P32J6KM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.igordrljic.DatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A834F2982771D17E00AAD490 /* Build configuration list for PBXProject "DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A834F2B02771D17E00AAD490 /* Debug */,
+				A834F2B12771D17E00AAD490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A834F2B22771D17E00AAD490 /* Build configuration list for PBXNativeTarget "DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A834F2B32771D17E00AAD490 /* Debug */,
+				A834F2B42771D17E00AAD490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A834F2B52771D17E00AAD490 /* Build configuration list for PBXNativeTarget "DatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A834F2B62771D17E00AAD490 /* Debug */,
+				A834F2B72771D17E00AAD490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A834F2952771D17E00AAD490 /* Project object */;
+}
